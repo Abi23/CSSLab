@@ -1,0 +1,56 @@
+
+.board{
+
+    padding: 3em;
+    text-align: center;
+ 
+
+}
+
+
+.row > div{
+float:left;
+height: 100px;
+width: 100px;
+margin: 0 auto;
+}
+
+.top-left{
+    border-bottom: 1px red solid;
+    border-right: 1px black solid;
+
+}
+.top-center{
+    border-bottom: 1px red solid;
+    border-right: 1px black solid;
+
+
+
+}
+.top-right{
+    border-bottom: 1px red solid;
+
+}
+
+.middle-left { 
+    border-bottom: 1px blue solid;
+    clear: left;
+    border-right: 1px black solid;
+
+}
+.middle-center { 
+    border-bottom: 1px blue solid;
+    border-right: 1px black solid;
+
+}
+.middle-right { 
+    border-bottom: 1px blue solid;
+}
+.bottom-left {
+    border-right: 1px black solid;
+    clear: left;
+}
+.bottom-center{
+    border-right: 1px black solid;
+
+}
